@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height:100%;
+  body {
+    height:100%;
+    @apply bg-gray-400;
+    .Base {background: linear-gradient(180deg, #181A28 0%, #0C0D14 100%);}
+
+    #root {
+      min-height:100px;
+      height:100%;
+    }
+  }
+}
+
+
+
